@@ -8,6 +8,7 @@ from typing import List
     returns their sum as a float.
 """
 
+
 def sum_list(input_list: List[float]) -> float:
     """
         function return sum of list of floats
