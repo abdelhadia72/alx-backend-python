@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+from typing import List
+
 
 """
     function sum_list which takes a list
@@ -6,10 +8,8 @@
     returns their sum as a float.
 """
 
-
-def sum_list(input_list: list[float]) -> float:
+def sum_list(input_list: List[float]) -> float:
     """
         function return sum of list of floats
     """
-
     return sum(input_list)
